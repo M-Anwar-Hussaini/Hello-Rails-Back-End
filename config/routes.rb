@@ -4,5 +4,4 @@ Rails.application.routes.draw do
       get 'greeting', to: 'messages#greeting'
     end
   end
-  root 'messages#greeting'
 end
